@@ -1,0 +1,19 @@
+l=60
+b=40
+in=43
+  #user input
+#a=$(echo "scale=2;100/3"|bc)
+ft=$(echo "scale=2;100/3"|bc)
+
+  echo 43 in is $ft ft
+area=$(($l*$b))
+echo Length is $l 
+echo Breath is $b
+echo  area of rectangle is $area sq.ft
+#1 acre is 43560
+
+acre=43560
+echo 1 acre is 43560 sq.ft
+echo 25 acre is $((25*$acre)) sq.ft
+
+
