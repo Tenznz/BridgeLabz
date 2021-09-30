@@ -1,3 +1,4 @@
+#!/bin/bash -x
 dailyAndTotalWageOfFullTime(){
 	declare -a fullTime
 	total=0

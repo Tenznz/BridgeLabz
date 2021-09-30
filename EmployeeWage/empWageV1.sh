@@ -1,3 +1,4 @@
+#!/bin/bash -x
 isPresent=1;
 randomCheck=$(($RANDOM%2));
 echo $randomCheck

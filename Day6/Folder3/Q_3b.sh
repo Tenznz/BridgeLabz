@@ -1,5 +1,5 @@
 #!/bin/bash -x
-source /Users/duk/Desktop/bash373/BridgeLabz/Day6/Folder3/Q_3a.sh
+
 function checkPalindrome() {
 n=$1
 rev=0
