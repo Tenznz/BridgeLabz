@@ -1,18 +1,21 @@
 #!/bin/bash -x
-read -p "Enter a number" num
 
+function checkPrime(){
 count=1
-
+num=$1
 for (( i=1; $i<=$num; i=$(($i+1))))
 do 
-	if(( $num%$i == 0 ))
+	if (( $num%$i == 0 ))
 	then 
 	count=$(($count+1))
 	fi
 done
 if(( $count<=3 && $count>1 ))
 then
-	echo $num is  Prime
+	echo prime
+	
 else
-	echo $num is not prime
+	echo notprime
+
 fi
+}
